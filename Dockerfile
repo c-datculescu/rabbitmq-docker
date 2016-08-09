@@ -1,4 +1,4 @@
-FROM rabbitmq:3.5.6-management
+FROM rabbitmq:3.6.4-management
 
 # enable the needed plugins
 RUN rabbitmq-plugins enable --offline rabbitmq_shovel
